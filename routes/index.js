@@ -1,10 +1,9 @@
-
 const { Router } = require('express');
 const controllers = require('../controllers');
 
 const router = Router();
 
-router.get('/', (req, res) => res.send('Welcome'))
+router.get('/', (req, res) => res.send('Welcome. try /api/posts'))
 
 router.post('/posts', controllers.createPost);
 router.get('/posts', controllers.getAllPosts);
@@ -13,3 +12,4 @@ router.put('/posts/:postId', controllers.updatePost);
 router.delete('/posts/:postId', controllers.deletePost);
 
 module.exports = router;
+    

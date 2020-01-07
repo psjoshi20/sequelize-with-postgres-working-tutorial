@@ -1,16 +1,15 @@
-[![Build Status](https://travis-ci.org/nedssoft/sequelize-with-postgres-tutorial.svg?branch=master)](https://travis-ci.org/nedssoft/sequelize-with-postgres-tutorial) [![Coverage Status](https://coveralls.io/repos/github/oriechinedu/sequelize-with-postgres-tutorial/badge.svg?branch=master)](https://coveralls.io/github/oriechinedu/sequelize-with-postgres-tutorial?branch=master) 
 
 # Sequelize, PostgreSQL, Node.js tutorial
 
 $ cd sequelize-with-postgres-tutorial/
 https://github.com/nedssoft/sequelize-with-postgres-tutorial/blob/master/.env.example
 
-# Usage
+# working ok till get , post (insert data into table), Delete  requests on postman. 
+# Giving errors at Put requeest. (parse error)
+laptop --
+project is under 
+dir- ~/sequelize-with postgres-tutorial
+daatabase dev_db on pgadmin/
+database contains  comments,posts and author tables
 
-- `git clone git@github.com:nedssoft/sequelize-with-postgres-tutorial.git && cd sequelize-with-postgres-tutorial`
-- `cp .env.example .env`
-- Create two Postgres databases one for test and the other for development and assign the values of the connection strings to `DEV_DATABASE_URL` and `TEST_DATABASE_URL`= respectively.
-- `npm install`
-- npm run dev
-- Keep working 🔥
 

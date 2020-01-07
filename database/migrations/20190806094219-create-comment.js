@@ -9,16 +9,17 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       postId: {
-        type: Sequelize.INTEGER,
         allowNull: false,
+        type: Sequelize.INTEGER
+       
       },
       comment: {
         type: Sequelize.TEXT
       },
       userId: {
-        type: Sequelize.INTEGER,
         allowNull: false,
-      },
+        type: Sequelize.INTEGER,
+              },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
